@@ -57,7 +57,7 @@ Feature: I would like to edit pupils
     Then I should not see "<name>"
 
   Examples:
-    |  surname                      |
+    |  name                         |
     | WYDZIAL RECORD Informatyka    |
     | WYDZIAL RECORD Historia       |
     | NEW WYDZIAL RECORD Biologia   |
