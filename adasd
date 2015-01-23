@@ -1,0 +1,178 @@
+[33mcommit bf1a084e589c42bd4ff9b75c4fbbc604f8d78b3f[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 09:48:16 2015 +0100
+
+    Wydzial CRUD - GREEN - Pawel Stadnik
+
+[33mcommit 909a16d81f184147519831c952ce07642733211a[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 09:42:07 2015 +0100
+
+    Wydzial CRUD - RED - Pawel Stadnik
+
+[33mcommit b35e386972dca5d69942053c614e62ccab1e608a[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 09:22:00 2015 +0100
+
+    Login - GREEN - Pawel Stadnik
+
+[33mcommit e762101a6acd261d69e967783260282b27bcff11[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 09:17:30 2015 +0100
+
+    Login - RED - Pawel Stadnik
+
+[33mcommit 3a38200630968482e195739c44acd763c7dd24a1[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 09:15:05 2015 +0100
+
+    Homepage - GREEN - Pawel Stadnik
+
+[33mcommit 7172ff9cfd5605eb5a5aab1bbdefd5e744fcfef9[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 09:09:16 2015 +0100
+
+    Homegape - RED - Pawel Stadnik
+
+[33mcommit afb8051c4481a2132279bf7dd8cda87d673723cf[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 09:04:39 2015 +0100
+
+    Travis icon - Pawel Stadnik
+
+[33mcommit bd865cf67d6f5b25f7034271c22137efca543025[m
+Author: StadnikPawel <pawekar90@gmail.com>
+Date:   Fri Jan 23 08:46:08 2015 +0100
+
+    Use box gajdaw/symfony - Pawel Stadnik
+
+[33mcommit 06a9621302664f9e522e4e516a36b6f760a3cc34[m
+Merge: 21cfd3a 5227a4f
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Thu Jan 8 08:36:18 2015 +0100
+
+    SymfonyAppStartup 2.6.3
+
+[33mcommit 5227a4fc3aea8483f308616fa6dd25d7c5583fcf[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Thu Jan 8 08:35:53 2015 +0100
+
+    [STARTUP] Updated dependencies
+
+[33mcommit 11adb7f081c07ea125b6a71e868e7285e8417d0c[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Fri Nov 21 09:16:35 2014 +0100
+
+    [STARTUP] Travis configuration
+
+[33mcommit b3c2c6bc65c024385d202f106cc1355d83ba6bd5[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Tue Dec 30 08:34:39 2014 +0100
+
+    [STARTUP] Behat initialization
+
+[33mcommit a0595a345f23df7b58ca9c55f9d8b0e7d7acafe0[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Mon Dec 22 12:59:22 2014 +0100
+
+    [STARTUP] Behat installation
+    
+    Conflicts:
+    	composer.json
+
+[33mcommit b1e82229128f3ee866db8ec33ff9a85a350e03c5[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Mon Jan 14 19:22:13 2013 +0100
+
+    [STARTUP] FOSUserBundle installation
+    
+    Conflicts:
+    	app/config/config.yml
+    	app/config/routing.yml
+    	app/config/security.yml
+    	composer.json
+    
+    Conflicts:
+    	app/AppKernel.php
+    	app/config/routing.yml
+    
+    Conflicts:
+    	app/config/config.yml
+    	app/config/security.yml
+    	composer.json
+    
+    Conflicts:
+    	app/config/security.yml
+    
+    Conflicts:
+    	app/AppKernel.php
+    	composer.json
+
+[33mcommit ba08cfd2ee6e562ebb0ac7774b405d149ab88e96[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Sat Jan 4 12:57:45 2014 +0100
+
+    [STARTUP] DoctrineFixturesBundle installation
+    
+    Conflicts:
+    	app/AppKernel.php
+    
+    Conflicts:
+    	composer.json
+
+[33mcommit 0f602704b2d2c4606c24c9ef45222a95f02afd81[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Fri Nov 21 11:16:29 2014 +0100
+
+    [STARTUP] Scripts
+
+[33mcommit a406a7071aa4468c216b207dd50abd5ec4ca4223[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Thu Jan 2 08:00:35 2014 +0100
+
+    [STARTUP] Db: sql + parameters.yml
+
+[33mcommit 73357a29804ea60ca48e4cb763e43dca26c4ee0e[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Sat Nov 15 08:31:56 2014 +0100
+
+    [STARTUP] Error 404
+
+[33mcommit decfb0cd7343f5bcfd33eaa5c1b28d821838855a[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Tue Dec 2 13:21:22 2014 +0100
+
+    [STARTUP] Vendor, cache and log in /tmp/symfony2app/
+
+[33mcommit 7e2cca9b3ac80888e3ab2ac8b2b5b30f97b77868[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Fri Sep 26 10:11:58 2014 +0200
+
+    [STARTUP] Vagrant
+    
+    Conflicts:
+    	web/app_dev.php
+
+[33mcommit 2e28504fdd3c6c6ca9be62b371606323e0582ef3[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Thu Jan 2 12:52:20 2014 +0100
+
+    [STARTUP] Remove unnecessary files
+    
+    Conflicts:
+    	README.md
+    
+    Conflicts:
+    	README.md
+
+[33mcommit cdb399ac6574572b03490390b68cbb893ddcbe41[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Mon Mar 4 18:14:11 2013 +0100
+
+    [STARTUP] Gitignore and gitattributes
+
+[33mcommit 21cfd3a47fe5efb3a9fefede9a528d69ca947328[m
+Author: Włodzimierz Gajda <gajdaw@gajdaw.pl>
+Date:   Thu Jan 8 08:16:41 2015 +0100
+
+    Symfony Standard v2.6.3

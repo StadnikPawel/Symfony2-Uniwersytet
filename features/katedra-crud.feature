@@ -1,4 +1,4 @@
-Feature: I would like to edit wydzial
+Feature: I would like to edit katedra
 
   Scenario Outline: Insert records
     Given I am on homepage
@@ -6,7 +6,7 @@ Feature: I would like to edit wydzial
     And I fill in "Username" with "admin"
     And I fill in "Password" with "admin"
     And I press "Login"
-    And I go to "/admin/wydzial"
+    And I go to "/admin/katedra"
     Then I should not see "<name>"
     And I follow "Create a new entry"
     Then I should see "Wydzial creation"
@@ -16,9 +16,9 @@ Feature: I would like to edit wydzial
 
   Examples:
     | name                          |
-    | WYDZIAL RECORD Matematyka     |
-    | WYDZIAL RECORD Informatyka    |
-    | WYDZIAL RECORD Historia       |
+    | KATEDRA RECORD Webdeveloping  |
+    | KATEDRA RECORD Numeryczna     |
+    | KATEDRA RECORD Programowania  |
 
 
   Scenario Outline: Edit records
@@ -27,7 +27,7 @@ Feature: I would like to edit wydzial
     And I fill in "Username" with "admin"
     And I fill in "Password" with "admin"
     And I press "Login"
-    And I go to "/admin/wydzial"
+    And I go to "/admin/katedra"
     Then I should not see "<name>"
     When I follow "<old-name>"
     Then I should see "<old-name>"
@@ -39,8 +39,8 @@ Feature: I would like to edit wydzial
     And I should not see "<old-name>"
 
   Examples:
-    | old-name                     | new-name                    |
-    | WYDZIAL RECORD Matematyka    | NEW WYDZIAL RECORD Biologia |
+    | old-name                        | new-name                    |
+    | KATEDRA RECORD Webdeveloping    | NEW KATEDRA RECORD Grafika  |
 
 
   Scenario Outline: Delete records
@@ -49,7 +49,7 @@ Feature: I would like to edit wydzial
     And I fill in "Username" with "admin"
     And I fill in "Password" with "admin"
     And I press "Login"
-    And I go to "/admin/wydzial"
+    And I go to "/admin/katedra"
     Then I should see "<name>"
     When I follow "<name>"
     Then I should see "<name>"
@@ -57,7 +57,7 @@ Feature: I would like to edit wydzial
     Then I should not see "<name>"
 
   Examples:
-    |  name                         |
-    | WYDZIAL RECORD Informatyka    |
-    | WYDZIAL RECORD Historia       |
-    | NEW WYDZIAL RECORD Biologia   |
+    |  name                        |
+    | KATEDRA RECORD Numeryczna    |
+    | KATEDRA RECORD Programowania |
+    | NEW KATEDRA RECORD Grafika   |
