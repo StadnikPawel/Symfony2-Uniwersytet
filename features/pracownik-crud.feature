@@ -42,7 +42,7 @@ Feature: I would like to edit pracownik
 
   Examples:
     | old-surname                  | new-name                   | new-surname                   |
-    | PRACOWNIK RECORD Glowacki    | NEW PRACOWNIK RECORD Jacek | NEW PRACOWNIK RECORD Mislawski|
+    | PRACOWNIK RECORD Glowacki    | NEW PRACOWNIK RECORD Piotr | NEW PRACOWNIK RECORD Mislawski|
 
 
   Scenario Outline: Delete records
